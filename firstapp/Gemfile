@@ -34,9 +34,6 @@ gem 'sdoc', '>= 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
-gem 'better_errors', '~> 2.5'
-
 # A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.7.2'
 
@@ -55,6 +52,9 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
+  gem 'better_errors', '~> 2.5'
 
   # Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.15'
